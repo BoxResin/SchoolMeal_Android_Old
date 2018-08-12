@@ -1,2 +1,5 @@
 # 빌드 파일
 build/
+
+# 테스트 파일
+AnyTest.kt
