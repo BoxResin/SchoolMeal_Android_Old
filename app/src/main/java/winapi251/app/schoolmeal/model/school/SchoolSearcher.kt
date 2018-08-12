@@ -9,4 +9,7 @@ interface SchoolSearcher
      * @return 검색된 학교 목록
      */
     fun search(schoolName: String): List<SchoolInfo>
+
+    // 디폴트 동작 설정
+    companion object : SchoolSearcher by FakeSchoolSearcher
 }
