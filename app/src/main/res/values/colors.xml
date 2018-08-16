@@ -4,4 +4,8 @@
     <color name = "colorPrimary">#008577</color>
     <color name = "colorPrimaryDark">#00574B</color>
     <color name = "colorAccent">#D81B60</color>
+
+    <!-- 기타 색상 -->
+    <color name = "gray">#BBBBBB</color>
+    <color name = "gray_light">#E9E9E9</color>
 </resources>
