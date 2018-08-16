@@ -1,6 +1,15 @@
 <!-- 모바일 내비게이션 -->
 <navigation
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    android:id = "@+id/mobile_navigation">
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:id = "@+id/mobile_navigation"
+    app:startDestination = "@id/mainFragment">
 
+    <!-- 메인 프래그먼트 -->
+    <fragment
+        android:id = "@+id/mainFragment"
+        android:name = "winapi251.app.schoolmeal.ui.main.MainFragment"
+        android:label = "메인"
+        tools:layout = "@layout/fragment_main"/>
 </navigation>
