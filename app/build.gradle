@@ -12,6 +12,9 @@ android {
         versionCode 100
         versionName "3.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // 벡터 드로어블 서포트 라이브러리 사용
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
